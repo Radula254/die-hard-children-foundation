@@ -1106,10 +1106,9 @@ h6 {
   }
 }
 .team-one__wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1.7fr));
+  gap: 20px; /* Adjust the gap between cards as needed */
 }
 @media (max-width: 991px) {
   .team-one__wrapper {
@@ -1161,7 +1160,8 @@ h6 {
 }
 .team-card__image img {
   position: relative;
-  width: 100%;
+  width: 300px;
+  height: 310px;
   border-radius: 0 20px 20px 20px;
 }
 .team-card__hover {
@@ -10623,7 +10623,7 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 }
 .event-one--page {
-  padding: 120px 0;
+  padding: 0px 0;
 }
 @media (max-width: 767px) {
   .event-one--page {
