@@ -10706,6 +10706,23 @@ body.megamenu-popup-active .mobile-nav__content {
   padding: 15px 20px 19px;
   text-align: center;
 }
+.event-one__item__date2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  margin: 0 0 0 auto;
+  background-color: var(--aofixo-base, #ffbe50);
+  border-radius: 20px 20px 0 0;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: var(--aofixo-black, #242020);
+  text-transform: capitalize;
+  padding: 15px 20px 19px;
+  text-align: center;
+}
 .event-one__item__meta {
   display: flex;
   align-items: center;
